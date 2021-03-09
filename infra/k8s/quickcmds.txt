@@ -1,0 +1,6 @@
+kubectl delete -f ./infra/k8s
+kubectl apply -f ./infra/k8s
+kubectl create -f ./infra/k8s
+kubectl get pods
+kubectl get deployments
+kubectl get services
